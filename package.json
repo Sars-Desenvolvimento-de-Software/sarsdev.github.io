@@ -1,0 +1,25 @@
+{
+  "name": "sarsdev.github.io",
+  "version": "1.0.0",
+  "description": "Site oficial da empresa SarsDev",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarsdev/sarsdev.github.io.git"
+  },
+  "keywords": [
+    "sarsdev",
+    "web",
+    "site",
+    "portfolio"
+  ],
+  "author": "sarsdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarsdev/sarsdev.github.io/issues"
+  },
+  "homepage": "https://github.com/sarsdev/sarsdev.github.io#readme"
+}
