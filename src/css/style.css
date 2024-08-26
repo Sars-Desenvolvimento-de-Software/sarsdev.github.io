@@ -1,3 +1,39 @@
-main {
-    margin: 2px 0px;
+small {
+    visibility: hidden;
+}
+
+nav, footer {
+    background-color: #102542;
+}
+
+footer p {
+    color: white;
+}
+
+main a {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    transform: scale(1.1);
+    text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 2px;
+}
+
+.card {
+    margin-bottom: 2em;
+}
+
+.introducao .card {
+    width: 18rem;
+}
+
+.introducao .card:hover {
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 10px 20px;
+}
+
+.card:hover small {
+    visibility: visible;
 }
