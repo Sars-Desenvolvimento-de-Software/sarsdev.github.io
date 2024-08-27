@@ -37,3 +37,7 @@ main a:hover {
 .card:hover small {
     visibility: visible;
 }
+
+.nav-link:hover {
+    font-weight: bolder;
+}
