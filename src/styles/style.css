@@ -10,15 +10,39 @@ footer p {
     color: white;
 }
 
-main a {
+.contatos-navbar {
+    width: 20%;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler:focus {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.contatos a {
     font-size: large;
     text-decoration: none;
     color: black;
 }
 
-main a:hover {
+.contatos a:hover {
     transform: scale(1.1);
     text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 2px;
+}
+
+.introducao a {
+    text-decoration: none;
+}
+
+.introducao a:hover {
+    transform: scale(1);
 }
 
 .card {
@@ -26,7 +50,7 @@ main a:hover {
 }
 
 .introducao .card {
-    width: 18rem;
+    width: 20rem;
 }
 
 .introducao .card:hover {
@@ -40,4 +64,18 @@ main a:hover {
 
 .nav-link:hover {
     font-weight: bolder;
+}
+
+@media only screen and (max-width: 800px){
+    .introducao {
+        justify-content: center !important;
+    }
+
+    .inverter-ordem {
+        flex-direction: column-reverse;
+    }
+
+    .contatos-navbar {
+        width: 50%
+    }
 }
