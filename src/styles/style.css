@@ -10,6 +10,11 @@ footer p {
     color: white;
 }
 
+.accordion-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .contatos-navbar {
     width: 20%;
 }
