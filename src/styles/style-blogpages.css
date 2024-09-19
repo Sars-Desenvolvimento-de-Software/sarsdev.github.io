@@ -1,0 +1,12 @@
+article h1, article h3 {
+    text-align: center;
+    margin: 1em 0em;
+}
+
+article li {
+    margin-bottom: 1em;
+}
+
+article em {
+    font-weight: bold;
+}
