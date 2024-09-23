@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'wind';
+    src: url('../fonts/wind.ttf') format('truetype');
+}
+
 small {
     visibility: hidden;
 }
