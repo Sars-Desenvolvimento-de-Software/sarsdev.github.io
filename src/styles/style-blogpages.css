@@ -10,3 +10,12 @@ article li {
 article em {
     font-weight: bold;
 }
+
+.dados-autor img {
+    width: 5em;
+}
+
+.dados-autor p {
+    margin: 0px;
+    font-size: small;
+}
